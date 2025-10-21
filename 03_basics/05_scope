@@ -1,0 +1,19 @@
+// Global Execution - this code runs in the global scope
+// Memory Allocation Phase
+// In this first all variables are declared as undefined and functions are stored in memory
+
+//Execution Phase
+// In this phase code is executed line by line
+// variables are assigned values and functions are executed
+
+// what is global execution and what happens in that aswer in brief
+// Global execution context is the default or base context where JavaScript code is executed. It is created when the JavaScript engine starts executing the code. The global execution context has two main phases: Memory Allocation Phase and Execution Phase.
+
+// what is this in global execution context
+// In the global execution context, 'this' refers to the global object. In a web browser, the global object is 'window', while in Node.js, it is 'global'. Therefore, when you use 'this' in the global scope, it points to the global object.
+
+// ************************Call Stack****************************
+
+// Call Stack is a data structure that keeps track of function calls in a program. It follows the Last In First Out (LIFO) principle, meaning the last function added to the stack is the first one to be removed when it completes execution.
+
+// When a function is called, a new execution context is created for that function and pushed onto the call stack. The JavaScript engine then executes the function's code. Once the function completes its execution, its execution context is popped off the stack, and control returns to the previous execution context.
